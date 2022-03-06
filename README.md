@@ -24,6 +24,6 @@ Inside of your container, just run:
 roslaunch d_hospital_world view_hospital.launch
 ```
 
-## 🧐 What we should see?
+## 🧐 What should we see?
 
 ![hospital world](imgs/hospital_world.png)
