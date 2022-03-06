@@ -17,7 +17,7 @@ RUN source /opt/ros/melodic/setup.bash \
     && cd /catkin_ws/src \
     && git clone https://github.com/ZimaUSP/d_hospital_world.git
 
-# uodate gazebo version
+# Update gazebo version
 RUN apt-get update \
     && sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list' \
     && wget https://packages.osrfoundation.org/gazebo.key -O - | apt-key add - \
